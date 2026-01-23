@@ -4,7 +4,7 @@ A clean, modern website for a Swiss cosmetics and wellness salon located in Happ
 
 ## Overview
 
-This is a static HTML/CSS website built as a clean rewrite of the original Jimdo-based site. The focus is on elegant design, fast performance, and easy maintenance.
+This is a static HTML/CSS website built as a clean rewrite of the original site. The focus is on elegant design, fast performance, and easy maintenance.
 
 ## Features
 
@@ -84,6 +84,4 @@ kosmetik_heitmann_clone/
 - Original website: [kosmetik-heitmann.ch](https://www.kosmetik-heitmann.ch)
 - Fonts: [Google Fonts](https://fonts.google.com)
 
-## License
 
-This project is for educational/demonstration purposes.
