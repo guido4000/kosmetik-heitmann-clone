@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt | Kosmetik & Pflege Ingrid Heitmann</title>
+  <meta name="description" content="Kontakt - Vereinbaren Sie einen Termin bei Kosmetik & Pflege Ingrid Heitmann in Happerswil">
+  <link rel="icon" href="img/540d9d33-3859-42d2-b223-b35416b62882.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Kosmetik & Pflege Ingrid Heitmann</a>
+      <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="leistungen.html">Leistungen</a>
+        <a href="produkte.html">Produkte</a>
+        <a href="ueber-mich.html">Über mich</a>
+        <a href="kontakt.html" class="active">Kontakt</a>
+      </nav>
+      <div class="social-links">
+        <a href="https://www.facebook.com/ingrid.heitmann.56" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Kontakt</h1>
+      <p>Ich freue mich auf Ihre Nachricht</p>
+    </div>
+  </section>
+
+  <!-- Contact Info -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-info">
+        <div class="contact-box">
+          <h3>Adresse</h3>
+          <p>Kosmetik & Pflege Ingrid Heitmann</p>
+          <p>Oberdorf 10</p>
+          <p>8585 Happerswil</p>
+        </div>
+        <div class="contact-box">
+          <h3>Kontakt</h3>
+          <p><a href="tel:+41716460212">071 646 02 12</a> (Festnetz)</p>
+          <p><a href="tel:+41787529119">078 752 91 19</a> (mobil/WhatsApp)</p>
+          <p><a href="mailto:ingrid@heitmann.ch">ingrid@heitmann.ch</a></p>
+        </div>
+        <div class="contact-box">
+          <h3>Öffnungszeiten</h3>
+          <p>Montag - Freitag 8.30 bis 11.30 Uhr</p>
+          <p>Montag - Freitag 13.30 bis 19.00 Uhr</p>
+          <p>Samstag nach Vereinbarung</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Nachricht senden</h2>
+        <p>Füllen Sie das Formular aus und ich melde mich zeitnah bei Ihnen.</p>
+      </div>
+      <form class="contact-form" action="mailto:ingrid@heitmann.ch" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-Mail *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Nachricht *</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Nachricht senden</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Map Section (placeholder) -->
+  <section class="section">
+    <div class="container text-center">
+      <h2>So finden Sie uns</h2>
+      <p>Oberdorf 10, 8585 Happerswil, Schweiz</p>
+      <p style="margin-top: 1rem;"><a href="https://maps.google.com/?q=Oberdorf+10,+8585+Happerswil" target="_blank" rel="noopener" class="btn">Route planen</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p><strong>Kosmetik & Pflege Ingrid Heitmann</strong></p>
+          <p>Oberdorf 10, 8585 Happerswil</p>
+          <p><a href="mailto:ingrid@heitmann.ch">ingrid@heitmann.ch</a></p>
+          <p><a href="tel:+41716460212">071 646 02 12</a></p>
+        </div>
+        <div class="footer-links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="cookie-einstellungen.html">Cookie-Einstellungen</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Kosmetik & Pflege Ingrid Heitmann. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
