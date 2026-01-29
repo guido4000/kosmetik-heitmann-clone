@@ -61,6 +61,26 @@ Or with a simple server:
 npx serve
 ```
 
+## Deployment
+
+Hosted on [Cloudflare Pages](https://pages.cloudflare.com/). Requires [Wrangler](https://developers.cloudflare.com/workers/wrangler/) CLI.
+
+**First-time setup:**
+
+```bash
+wrangler pages project create kosmetik-heitmann --production-branch=main
+```
+
+**Deploy:**
+
+```bash
+wrangler pages deploy . --project-name=kosmetik-heitmann
+```
+
+Production URL: `https://kosmetik-heitmann.pages.dev`
+
+Custom domain is configured via Cloudflare Dashboard under **Pages > kosmetik-heitmann > Custom domains**.
+
 ## Project Structure
 
 ```
